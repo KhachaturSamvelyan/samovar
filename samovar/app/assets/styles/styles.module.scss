@@ -1,0 +1,21 @@
+.container {
+    padding: 20px;
+}
+  
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+  
+.product h2 {
+margin: 0 0 10px;
+}
+  
+.product a {
+    color: blue;
+    text-decoration: underline;
+    &:hover {
+        color: darkblue;
+    }
+}
